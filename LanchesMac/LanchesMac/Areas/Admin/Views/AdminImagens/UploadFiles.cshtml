@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Titulo"] = "UploadFiles";
+}
+
+<div class="container">
+    <div class="h-100 p-5 bg-light border rounded-3">
+        @if(ViewData["Erro"] != null)
+        {
+            <h4> @ViewData["Erro"]</h4>
+        }
+
+    </div>
+    <div class="container">
+        @if(ViewData["Resultado"] != null)
+        {
+            <h4> @ViewData["Resultado"]</h4>
+            <hr />
+            @if(ViewBag.Arquivos != null)
+            {
+                @foreach(string arquivo in ViewBag.Arquivos)
+                {
+                    <li>@arquivo    </li>
+                }
+            }
+        }
+    </div>
+    
+</div>
+
+

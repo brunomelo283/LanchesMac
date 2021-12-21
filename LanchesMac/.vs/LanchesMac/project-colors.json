@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "632434aa-e2e6-4da8-92bb-04e4bc6e2689": {
+      "ProjectGuid": "632434aa-e2e6-4da8-92bb-04e4bc6e2689",
+      "DisplayName": "LanchesMac",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
