@@ -3,3 +3,5 @@
 
 
 *.cs linguist-detectable=true
+
+*.html linguist-language=C#
