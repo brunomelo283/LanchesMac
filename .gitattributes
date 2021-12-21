@@ -1,8 +1,5 @@
 * linguist-vendored
-*.cshtml linguist-vendored=false
 *.html linguist-vendored=false
-
-
 *.cs linguist-detectable=true
 
-*.html linguist-language=C#
+
